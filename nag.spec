@@ -7,6 +7,8 @@ Name:		nag
 Version:	1.0
 Release:	4
 Group:		Documentation
+Group(de):	Dokumentation
+Group(es):	Documentación
 Group(pl):	Dokumentacja
 Source0:	http://sunsite.unc.edu/LDP/%{name}.html.tar.gz
 Copyright:	distributable
