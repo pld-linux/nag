@@ -9,6 +9,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
+# Source0-md5:	3495e385c001cbc8879c128498246d20
 URL:		http://www.linuxdoc.org/LDP/nag2/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
