@@ -31,8 +31,8 @@ Informationen über das Linux Documentation Project und ggf. Updates zu
 dieser Version.
 
 %description -l pl
-To jest ogólny przewodnik po Administracji Sieciami Linuxowymi. Wiêcej
-informacji na temat Projektu Dokumentacji Linuxa (LDP) oraz
+To jest ogólny przewodnik po Administracji Sieciami Linuksowymi. Wiêcej
+informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
 http://www.linuxdoc.org/ .
 
