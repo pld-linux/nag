@@ -4,14 +4,12 @@ Summary(de):	LDP-Netzwerk-Administrator-Handbuch
 Summary(pl):	Podrêcznik Administratora Sieci LDP
 Summary(tr):	LDP - NAG, Að yöneticisinin el kitabý
 Name:		nag
-Version:	1.0
-Release:	4
+Version:	2.0
+Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	http://www.linuxdoc.org/LDP/%{name}.html.tar.gz
-#Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
-URL:		http://www.linuxdoc.org/LDP/nag/
-#URL:		http://www.linuxdoc.org/LDP/nag2/
+Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
+URL:		http://www.linuxdoc.org/LDP/nag2/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,7 +44,7 @@ eriþebilirsiniz. Að yöneticisinin el kitabý Linux'da að hizmetlerinin
 yönetimi üzerine genel bilgileri içerir.
 
 %prep
-%setup -q -n nag
+%setup -q -n nag2
 
 %install
 rm -rf $RPM_BUILD_ROOT
