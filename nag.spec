@@ -47,14 +47,13 @@ kitabý Linux'da að hizmetlerinin yönetimi üzerine genel bilgileri içerir.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/doc/LDP/nag
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LDP/nag
 
-cp -ar * $RPM_BUILD_ROOT/usr/doc/LDP/nag
+cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LDP/nag
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-
-/usr/doc/LDP/nag
+%{_defaultdocdir}/LDP/nag
