@@ -1,6 +1,6 @@
 Summary:	LDP Network Administrator's Guide
 Summary(fr):	Guide de l'administrateur réseau du LDP
-Summary(de):	LDP-Netzwerk-Administrator-Handbuch 
+Summary(de):	LDP-Netzwerk-Administrator-Handbuch
 Summary(pl):	Podrêcznik Administratora Sieci LDP
 Summary(tr):	LDP - NAG, Að yöneticisinin el kitabý
 Name:		nag
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the Network Administration of Linux
-systems. Check http://www.linuxdoc.org/ for more information about
-the Linux Documentation Project, and possible updates to this version.
+systems. Check http://www.linuxdoc.org/ for more information about the
+Linux Documentation Project, and possible updates to this version.
 
 %description -l fr
 Guide générique à l'administration réseau sous Linux. Allez sur
