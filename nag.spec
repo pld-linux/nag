@@ -5,13 +5,13 @@ Summary(pl):	Podrêcznik Administratora Sieci LDP
 Summary(tr):	LDP - NAG, Að yöneticisinin el kitabý
 Name:		nag
 Version:	1.0
-Release:	3
+Release:	4
 Group:		Documentation
 Group(pl):	Dokumentacja
 Source:		http://sunsite.unc.edu/LDP/nag.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
-Buildroot:	/tmp/buildroot-%{name}-%{version}
+Buildroot:	/tmp/%{name}-%{version}-root
 
 %description
 This is a generic guide to the Network Administration of Linux systems.
@@ -41,7 +41,7 @@ http://www.linux.org.tr/LDP altýndan eriþebilirsiniz. Að yöneticisinin el
 kitabý Linux'da að hizmetlerinin yönetimi üzerine genel bilgileri içerir.
 
 %prep
-%setup -n nag
+%setup -q -n nag
 
 %build
 
@@ -57,10 +57,15 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644, root, root, 755)
 
-%dir /usr/doc/LDP/nag
-/usr/doc/LDP/nag/*
+/usr/doc/LDP/nag
 
 %changelog
+* Mon Feb  8 1999 Micha³ Kuratczyk <kurkens@polbox.com>
+  [1.0-4]
+- sloted BuildRoot into PLD standard
+- simplification in %files
+- added -q parameter for %setup
+
 * Sat Feb  6 1999 Micha³ Kuratczyk <kurkens@polbox.com>
   [1.0-3]
 - added pl translations
