@@ -11,7 +11,7 @@ Group(pl):	Dokumentacja
 Source:		http://sunsite.unc.edu/LDP/nag.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
-Buildroot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the Network Administration of Linux systems.
