@@ -8,9 +8,6 @@ Version:	1.0
 Release:	4
 License:	distributable
 Group:		Documentation
-Group(de):	Dokumentation
-Group(es):	Documentación
-Group(pl):	Dokumentacja
 Source0:	http://www.linuxdoc.org/LDP/%{name}.html.tar.gz
 #Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
 URL:		http://www.linuxdoc.org/LDP/nag/
