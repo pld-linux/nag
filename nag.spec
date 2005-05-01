@@ -35,7 +35,7 @@ dieser Version.
 To jest ogólny przewodnik po Administracji Sieciami Linuksowymi. Wiêcej
 informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
-http://www.tldp.org/ .
+<http://www.tldp.org/>.
 
 %description -l tr
 Bu kitap, LDP (Linux belgeleme çalýþmasý) sonucunda ortaya çýkan
