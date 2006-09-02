@@ -1,6 +1,6 @@
 Summary:	LDP Network Administrator's Guide
-Summary(fr):	Guide de l'administrateur réseau du LDP
 Summary(de):	LDP-Netzwerk-Administrator-Handbuch
+Summary(fr):	Guide de l'administrateur réseau du LDP
 Summary(pl):	Podrêcznik Administratora Sieci LDP
 Summary(tr):	LDP - NAG, Að yöneticisinin el kitabý
 Name:		nag
@@ -11,6 +11,7 @@ Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}-%{version}.html.tar.gz
 # Source0-md5:	450a4f706f24da3cc654867d36872c7f
 URL:		http://www.tldp.org/LDP/nag2/
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,30 +33,29 @@ Informationen über das Linux Documentation Project und ggf. Updates zu
 dieser Version.
 
 %description -l pl
-To jest ogólny przewodnik po Administracji Sieciami Linuksowymi. Wiêcej
-informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
+To jest ogólny przewodnik po Administracji Sieciami Linuksowymi.
+Wiêcej informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
 <http://www.tldp.org/>.
 
 %description -l tr
 Bu kitap, LDP (Linux belgeleme çalýþmasý) sonucunda ortaya çýkan
 eserlerden biri. Serinin diðer kitaplarý ile birlikte bu kitaplarýn
-güncel bir yansýsýna http://www.tldp.org/ altýndan
-eriþebilirsiniz. Að yöneticisinin el kitabý Linux'da að hizmetlerinin
-yönetimi üzerine genel bilgileri içerir.
+güncel bir yansýsýna http://www.tldp.org/ altýndan eriþebilirsiniz. Að
+yöneticisinin el kitabý Linux'da að hizmetlerinin yönetimi üzerine
+genel bilgileri içerir.
 
 %prep
-%setup -q -n nag2
+%setup -q -n %{name}2
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LDP/nag
-
-cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LDP/nag
+install -d $RPM_BUILD_ROOT%{_docdir}/LDP/nag
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/nag
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LDP/nag
+%{_docdir}/LDP/nag
