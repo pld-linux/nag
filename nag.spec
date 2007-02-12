@@ -1,8 +1,8 @@
 Summary:	LDP Network Administrator's Guide
-Summary(de):	LDP-Netzwerk-Administrator-Handbuch
-Summary(fr):	Guide de l'administrateur réseau du LDP
-Summary(pl):	Podrêcznik Administratora Sieci LDP
-Summary(tr):	LDP - NAG, Ağ yöneticisinin el kitabı
+Summary(de.UTF-8):   LDP-Netzwerk-Administrator-Handbuch
+Summary(fr.UTF-8):   Guide de l'administrateur rÃ©seau du LDP
+Summary(pl.UTF-8):   PodrÄ™cznik Administratora Sieci LDP
+Summary(tr.UTF-8):   LDP - NAG, AÄŸ yÃ¶neticisinin el kitabÄ±
 Name:		nag
 Version:	2.0
 Release:	1
@@ -20,30 +20,30 @@ This is a generic guide to the Network Administration of Linux
 systems. Check http://www.tldp.org/ for more information about the
 Linux Documentation Project, and possible updates to this version.
 
-%description -l fr
-Guide générique à l'administration réseau sous Linux. Allez sur
+%description -l fr.UTF-8
+Guide gÃ©nÃ©rique Ã  l'administration rÃ©seau sous Linux. Allez sur
 http://www.tldp.org/ pour plus d'informations sur le Projet de
-Documentation Linux (LDP) et les mises à jour éventuelles de cette
+Documentation Linux (LDP) et les mises Ã  jour Ã©ventuelles de cette
 version.
 
-%description -l de
+%description -l de.UTF-8
 Dies ist eine allgemeine Anleitung zur Netzwerkverwaltung von
 Linux-Systemen. Unter http://www.tldp.org/ finden Sie weitere
-Informationen über das Linux Documentation Project und ggf. Updates zu
+Informationen Ã¼ber das Linux Documentation Project und ggf. Updates zu
 dieser Version.
 
-%description -l pl
-To jest ogólny przewodnik po Administracji Sieciami Linuksowymi.
-Wiêcej informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
-uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
+%description -l pl.UTF-8
+To jest ogÃ³lny przewodnik po Administracji Sieciami Linuksowymi.
+WiÄ™cej informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
+uaktualnienia tego dokumentu moÅ¼esz znaleÅºÄ‡ pod adresem
 <http://www.tldp.org/>.
 
-%description -l tr
-Bu kitap, LDP (Linux belgeleme çalışması) sonucunda ortaya çıkan
-eserlerden biri. Serinin diğer kitapları ile birlikte bu kitapların
-güncel bir yansısına http://www.tldp.org/ altından erişebilirsiniz. Ağ
-yöneticisinin el kitabı Linux'da ağ hizmetlerinin yönetimi üzerine
-genel bilgileri içerir.
+%description -l tr.UTF-8
+Bu kitap, LDP (Linux belgeleme Ã§alÄ±ÅŸmasÄ±) sonucunda ortaya Ã§Ä±kan
+eserlerden biri. Serinin diÄŸer kitaplarÄ± ile birlikte bu kitaplarÄ±n
+gÃ¼ncel bir yansÄ±sÄ±na http://www.tldp.org/ altÄ±ndan eriÅŸebilirsiniz. AÄŸ
+yÃ¶neticisinin el kitabÄ± Linux'da aÄŸ hizmetlerinin yÃ¶netimi Ã¼zerine
+genel bilgileri iÃ§erir.
 
 %prep
 %setup -q -n %{name}2
