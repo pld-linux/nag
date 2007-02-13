@@ -1,8 +1,8 @@
 Summary:	LDP Network Administrator's Guide
-Summary(de.UTF-8):   LDP-Netzwerk-Administrator-Handbuch
-Summary(fr.UTF-8):   Guide de l'administrateur réseau du LDP
-Summary(pl.UTF-8):   Podręcznik Administratora Sieci LDP
-Summary(tr.UTF-8):   LDP - NAG, Ağ yöneticisinin el kitabı
+Summary(de.UTF-8):	LDP-Netzwerk-Administrator-Handbuch
+Summary(fr.UTF-8):	Guide de l'administrateur réseau du LDP
+Summary(pl.UTF-8):	Podręcznik Administratora Sieci LDP
+Summary(tr.UTF-8):	LDP - NAG, Ağ yöneticisinin el kitabı
 Name:		nag
 Version:	2.0
 Release:	1
